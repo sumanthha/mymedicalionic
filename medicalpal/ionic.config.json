@@ -1,8 +1,0 @@
-{
-  "name": "medicalpal",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "angular",
-  "id": "2b54fbd5"
-}
