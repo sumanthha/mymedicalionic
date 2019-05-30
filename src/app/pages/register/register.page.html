@@ -13,6 +13,25 @@
 
     <!-- Register form -->
     <form [formGroup]="onRegisterForm" class="list-form">
+      <ion-row>
+      <ion-radio-group>
+      <ion-item>
+      <ion-label>Patient</ion-label>
+      <ion-radio value="cord"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Doctor</ion-label>
+      <ion-radio value="duesenberg"></ion-radio>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Vendor</ion-label>
+      <ion-radio value="hudson"></ion-radio>
+    </ion-item>
+
+  </ion-radio-group>
+  </ion-row>
       <ion-item no-padding class="animated fadeInUp">
         <ion-label position="floating">
           <ion-icon name="mail" item-start></ion-icon>
